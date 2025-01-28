@@ -1,0 +1,11 @@
+# Work GitLab account
+Host gitlab-work
+  HostName gitlab.com
+  User git
+  IdentityFile ~/.ssh/id_rsa
+
+# Personal GitHub account
+Host github-personal
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/githubKey
